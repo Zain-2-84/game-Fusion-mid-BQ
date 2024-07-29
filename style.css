@@ -19,13 +19,13 @@
   margin-top: auto;
 }
 
-.keyboard-container {
+.keyboard-container, .available-Brands-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.keyboard {
+.keyboard, .available-Brands {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
