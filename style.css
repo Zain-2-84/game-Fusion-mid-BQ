@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, input, marquee, p {
+    font-size: 62.5%;
+    font-family: "Didact Gothic", sans-serif;
+}
+
+body {
+    font-size: 2rem;
+    background-color: #2b2b2b;
+    color: white;
+    /* font-size: 3vw; */
+    /* width: 97vw; */
+}
+
+/* Navbar */
+nav {
+    background-color: darkgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+
+    /* Nav Logo */
+nav img {
+    margin-left: 2rem;
+    padding: 1rem 0;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0 0.2rem;
+}
+
+nav li {
+    margin: 1.5rem 2rem;
+    padding: 1rem 0.5rem;
+}
+
+nav li.links:hover {
+    background-color: rgb(0, 46, 86);
+    color: white;
+}
+
+  /* Nav sign-in button */
+nav button {
+    width: 100px;
+    border: 1px solid white;
+    background-color: darkgray;
+    
+}
+
+nav button a,
+nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav button:hover {
+    background-color: rgb(207, 207, 207);
+}
+
+form.searchbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+form.searchbox input[type="search"] {
+    height: 40px;
+    width: 500px;
+    border-radius: 21px;
+    border: 1px solid gray;
+}
+
+input[placeholder] {
+    padding-left: 15px;
+    color: gray;
+}
+
+form.searchbox button {
+    border: none;
+    margin-left: 10px;
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    color: white;
+    background-color: blue;
+}
+
+form.searchbox button:hover {
+    background-color: rgb(15, 15, 124);
+}
+
+.carousel-item {
+    justify-items: center;
+    margin-bottom: 10px;
+}
+
+.carousel-item img {
+    height: 300px;
+    width: 300px;
+}
+
+.space-between {
+    height: 100px;
+}
+
+marquee {
+    margin-top: 15px;
+    margin-bottom: -10px;
+}
+
+footer {
+    background-color: black;
+    width: 100vw;
+    height: 50px;
+    position: relative;
+    top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    padding-top: 10px;
+    font-size: 10px;
+}
+img {
+    justify-items: center;
+}
