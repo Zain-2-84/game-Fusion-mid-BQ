@@ -29,13 +29,13 @@
 }
 /* Login end */
 
-.keyboard-container, .available-Brands-container {
+.keyboard-container, .available-Brands-container, .mice-container, .mouse-pad-container, .headphones-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.keyboard, .available-Brands {
+.keyboard, .available-Brands, .mice, .mouse-pad, .headphone {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -57,4 +57,19 @@
   padding: 5px 10px;
   border: none;
   cursor: pointer;
+}
+
+.background-img{
+  background-image: url(./images/login-images/game-dark-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: fixed; */
+}
+
+body{
+  background-color: #290025;
+}
+
+.login-body{
+  overflow: hidden;
 }

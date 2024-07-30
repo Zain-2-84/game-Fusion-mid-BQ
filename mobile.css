@@ -1,0 +1,32 @@
+/* Add this to your CSS file */
+
+/* Styles for screens smaller than 600px */
+@media (max-width: 600px) {
+    .container {
+      width: 100%;
+      padding: 0;
+    }
+  
+    .row-cols-1 .col {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+  
+    .card {
+      width: 100%;
+    }
+  
+    .card img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .card-body {
+      padding: 1rem;
+    }
+  
+    hr {
+      margin-top: 2rem;
+    }
+  }
+  
