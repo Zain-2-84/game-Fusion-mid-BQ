@@ -13,17 +13,14 @@ body {
     font-size: 2rem;
     background-color: #2b2b2b;
     color: white;
-    /* font-size: 3vw; */
-    /* width: 97vw; */
 }
 
 /* Navbar */
 nav {
-    background-color: darkgray;
+    background-color: rgb(69, 69, 69);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* flex-wrap: wrap; */
     width: 100vw;
 }
 
