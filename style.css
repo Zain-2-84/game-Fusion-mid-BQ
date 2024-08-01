@@ -73,3 +73,76 @@ body{
 .login-body{
   overflow: hidden;
 }
+
+/* Ayaan Hassan's work start */
+form.searchbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+form.searchbox input[type="search"] {
+    height: 40px;
+    width: 500px;
+    border-radius: 21px;
+    border: 1px solid gray;
+}
+
+input[placeholder] {
+    padding-left: 15px;
+    color: gray;
+}
+
+form.searchbox button {
+    border: none;
+    margin-left: 10px;
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    color: white;
+    background-color: blue;
+}
+
+form.searchbox button:hover {
+    background-color: rgb(15, 15, 124);
+}
+
+.carousel-item {
+    justify-items: center;
+    margin-bottom: 10px;
+}
+
+.carousel-item img {
+    height: 300px;
+    width: 300px;
+}
+
+.space-between {
+    height: 100px;
+}
+
+marquee {
+    margin-top: 15px;
+    margin-bottom: -10px;
+}
+
+footer {
+    background-color: black;
+    width: 100vw;
+    height: 50px;
+    position: relative;
+    top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    padding-top: 10px;
+    font-size: 10px;
+}
+img {
+    justify-items: center;
+}
+/* Ayaan Hassan's work end */
