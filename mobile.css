@@ -28,5 +28,21 @@
     hr {
       margin-top: 2rem;
     }
+
+    #games-hero, #products-hero {
+      display: block;
+      height: auto;
+    }
+  
+    .games-hero-img, .products-hero-img {
+      width: 100%;
+      height: auto;
+      background-size: contain;
+    }
+  
+    #games-hero div:first-child, #products-hero div:last-child {
+      clip-path: none;
+      background-color: #3806b3;
+    }
   }
   
