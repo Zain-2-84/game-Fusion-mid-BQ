@@ -1,139 +1,208 @@
-<div class="row row-cols-1 row-cols-md-1 g-2">
-        
-        <div class="col mb-2 g-2" style="width: 15rem;">
-          <!-- Keyboard selling start -->
-          <div class="card mb-2 g-2" style="width: 12rem;">
-            <div class="card" style="width: 18rem;">
-              <img src="..." class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up the
-                  bulk of the card's content.
-                </p>
-              </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">An item</li>
-                <li class="list-group-item">A second item</li>
-                <li class="list-group-item">A third item</li>
-              </ul>
-              <div class="card-body">
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-              </div>
-            </div>
-          </div>
-          <!-- Keyboards selling end -->
+    <marquee behavior="scroll" direction="left"><h3><i>This website is designed for all gamers.</i></h3></marquee>
 
+    
+    <form class="searchbox">
+        <input type="search" name="search" id="search" placeholder="Search for games">
+        <button type="submit" class="btn">
+            <i class="fa-solid fa-search"></i>
+        </button>
+    </form>
+
+
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCZlf5lc5tX-0gY-y94pGS0mQdL-D0lCH2OQ&s" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.shutterstock.com/image-vector/dotted-spiral-vortex-royaltyfree-images-600w-2227567913.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOc91IOdtyNQa6CuCp5TIqUH89hKafBaDf6g&s" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOc91IOdtyNQa6CuCp5TIqUH89hKafBaDf6g&s" class="d-block w-100" alt="...">
+          </div>
         </div>
 
-        <div class="col mb-2 g-2" style="width: 15rem;">
-          <!-- Mice selling start -->
-          <div class="card mb-2 g-2" style="width: 12rem;">
-            <div class="card" style="width: 18rem">
-              <img src="..." class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up the
-                  bulk of the card's content.
-                </p>
-              </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">An item</li>
-                <li class="list-group-item">A second item</li>
-                <li class="list-group-item">A third item</li>
-              </ul>
-              <div class="card-body">
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-              </div>
-            </div>
-          </div>
-          <!-- Mice selling end -->
-
-        </div>
-        
-        <div class="col mb-2 g-2" style="width: 15rem;">
-          <!-- Mousepads selling start -->
-          <div class="card mb-2 g-2" style="width: 12rem;">
-            <div class="card" style="width: 18rem">
-              <img src="..." class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up the
-                  bulk of the card's content.
-                </p>
-              </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">An item</li>
-                <li class="list-group-item">A second item</li>
-                <li class="list-group-item">A third item</li>
-              </ul>
-              <div class="card-body">
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-              </div>
-            </div>
-          </div>
-          <!-- Mousepads selling end -->
-
-        </div>
-
-        <div class="col mb-2 g-2" style="width: 15rem;">
-          <!-- Headphones selling start -->
-          <div class="card mb-2 g-2" style="width: 12rem;">
-            <div class="card" style="width: 18rem">
-              <img src="..." class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up the
-                  bulk of the card's content.
-                </p>
-              </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">An item</li>
-                <li class="list-group-item">A second item</li>
-                <li class="list-group-item">A third item</li>
-              </ul>
-              <div class="card-body">
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-              </div>
-            </div>
-          </div>
-          <!-- Headphones selling end -->
-
-        </div>
-
-        <div class="col mb-2 g-2" style="width: 15rem;">
-          <!-- Wireless controllers selling start -->
-          <div class="card mb-2 g-2" style="width: 12rem;">
-            <div class="card" style="width: 18rem">
-              <img src="..." class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up the
-                  bulk of the card's content.
-                </p>
-              </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">An item</li>
-                <li class="list-group-item">A second item</li>
-                <li class="list-group-item">A third item</li>
-              </ul>
-              <div class="card-body">
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-              </div>
-            </div>
-          </div>
-          <!-- Wireless controllers selling end -->
-
-        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
 
-Alienware keyboard black	price	Rs 49,099.00
+      <div class="space-between"></div>
+
+      <div id="carouselExample2" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCZlf5lc5tX-0gY-y94pGS0mQdL-D0lCH2OQ&s" class="d-block w-50" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.shutterstock.com/image-vector/dotted-spiral-vortex-royaltyfree-images-600w-2227567913.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOc91IOdtyNQa6CuCp5TIqUH89hKafBaDf6g&s" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOc91IOdtyNQa6CuCp5TIqUH89hKafBaDf6g&s" class="d-block w-100" alt="...">
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+<footer id="footer">
+  <div>
+  <p>Bano Qabil BootCamp Project | Copyright &copy; Mid Term Project</p>
+  </div>
+</footer>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, input, marquee, p {
+    font-size: 62.5%;
+    font-family: "Didact Gothic", sans-serif;
+}
+
+body {
+    font-size: 2rem;
+    background-color: #2b2b2b;
+    color: white;
+}
+
+/* Navbar */
+nav {
+    background-color: rgb(69, 69, 69);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+}
+
+    /* Nav Logo */
+nav img {
+    margin-left: 2rem;
+    padding: 1rem 0;
+    /* width: 100%; */
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0 0.2rem;
+}
+
+nav li {
+    margin: 1.5rem 2rem;
+    padding: 1rem 0.5rem;
+}
+
+nav li.links:hover {
+    background-color: rgb(0, 46, 86);
+    color: white;
+}
+
+  /* Nav sign-in button */
+nav button {
+    width: 100px;
+    border: 1px solid white;
+    background-color: darkgray;
+    
+}
+
+nav button a,
+nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav button:hover {
+    background-color: rgb(207, 207, 207);
+}
+
+form.searchbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+form.searchbox input[type="search"] {
+    height: 40px;
+    width: 500px;
+    border-radius: 21px;
+    border: 1px solid gray;
+}
+
+input[placeholder] {
+    padding-left: 15px;
+    color: gray;
+}
+
+form.searchbox button {
+    border: none;
+    margin-left: 10px;
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    color: white;
+    background-color: blue;
+}
+
+form.searchbox button:hover {
+    background-color: rgb(15, 15, 124);
+}
+
+.carousel-item {
+    justify-items: center;
+    margin-bottom: 10px;
+}
+
+.carousel-item img {
+    height: 300px;
+    width: 300px;
+}
+
+.space-between {
+    height: 100px;
+}
+
+marquee {
+    margin-top: 15px;
+    margin-bottom: -10px;
+}
+
+footer {
+    background-color: black;
+    width: 100vw;
+    height: 50px;
+    position: relative;
+    top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    padding-top: 10px;
+    font-size: 10px;
+}
+img {
+    justify-items: center;
+}

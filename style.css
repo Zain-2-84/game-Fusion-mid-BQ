@@ -74,6 +74,29 @@ body{
   overflow: hidden;
 }
 
+/* Home #hero section start */
+#hero{
+  display: flex;
+  height: 100vh;
+  margin-top: 1rem;
+}
+
+#hero div{
+  flex: 1;
+}
+
+#hero div:first-child{
+  flex: 2;
+  background-color: #3806b3;
+  clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+  /* background-size: contain; */
+}
+
+#hero .hero-img{
+  background: url(./game-images/elden-ring_roblox_stumble-guys_the-finals_collage_3.png) no-repeat center center/cover;
+}
+/* Home #hero section end */
+
 /* Ayaan Hassan's work start */
 form.searchbox {
     display: flex;
