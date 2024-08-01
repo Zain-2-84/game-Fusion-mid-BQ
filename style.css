@@ -74,28 +74,61 @@ body{
   overflow: hidden;
 }
 
-/* Home #hero section start */
-#hero{
+/* Home #games-hero start */
+#games-hero{
   display: flex;
-  height: 100vh;
-  margin-top: 1rem;
+  height: 80vh;
+  margin-top: 3rem;
 }
 
-#hero div{
+#games-hero div{
   flex: 1;
 }
 
-#hero div:first-child{
+#games-hero div:first-child{
   flex: 2;
   background-color: #3806b3;
-  clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+  clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 0 100%, 0% 80%, 0% 20%);
   /* background-size: contain; */
 }
 
-#hero .hero-img{
-  background: url(./game-images/elden-ring_roblox_stumble-guys_the-finals_collage_3.png) no-repeat center center/cover;
+#games-hero .games-hero-img{
+  background: url(./game-images/elden-ring_roblox_stumble-guys_the-finals_collage.png) no-repeat center center/cover;
+  height: 80vh;
+}
+
+.games-hero-content{
+  margin: 1.5rem;
 }
 /* Home #hero section end */
+
+/* #products-hero section start */
+#products-hero{
+  display: flex;
+  height: 80vh;
+  margin-top: 3rem;
+}
+
+#products-hero div{
+  flex: 1;
+}
+
+#products-hero div:last-child{
+  flex: 2;
+  background-color: #3806b3;
+  clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 100% 100%, 20% 100%, 0% 80%, 0% 20%);
+}
+
+#products-hero .products-hero-img{
+  background: url(./images/product-collage/Product-collage-cropped.png) no-repeat center center/cover;
+  height: 80vh;
+}
+
+.products-hero-content{
+  margin: 1.5rem;
+}
+
+/* #products-hero section end */
 
 /* Ayaan Hassan's work start */
 form.searchbox {
