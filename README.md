@@ -3,8 +3,10 @@ This is our games and accessories website, where we offer plenty of games, acces
 
 We chose a dark theme because black has a unique receding quality, causing brighter colors to stand out and instantly grab the viewer's attention.
 
-In the Games page, we divided our games into two categories, namely free-to-play and paid ones, with four games in each. Each game has its own description, OS, Processor, Memory, Hard disk space, price, and we also added Select element to allow users to select a product multiple times at once and the option to either Add to cart or Purchase directly (excluding free-to-play ones).
+On the Home page, we added a carousel to display four advertised games, and a marquee to advertise a few offers like flexible payment options, a 1 - 2 years warranty, and a 30-day money-back guarantee. Then we added a collage image with a clip-path with some description one for games and products to showcase what our website has in store. And finally, added a footer to display our copyright and team.
 
-In the Accessories page, we divided into four categories namely, Keyboards, mice, mouse pads, and headphones. We also mentioned eight brands to let our audience know what to expect. Afterwards, each product category has four items, which belong to two brands each. We also added Add to cart and Purchase option in here as well.
+On the Games page, our games are divided into two categories: free-to-play and paid. Each category contains four games, and each game is accompanied by a description, compatible operating system, processor, required memory, hard disk space, and price. We have also included a Select element that allows users to add multiple products to their cart and the option to Add to Cart or Purchase directly for paid games (excluding free-to-play ones).
 
-In the Login page, we chose a dark gaming background to make gamers both begineers and advanced feel more relatable. Then we added a simple login with user email, password, "I accept all the terms and conditions." checkbox, and Login button.
+On the Accessories page, we have divided products into four categories: Keyboards, Mice, Mouse pads, and Headphones. We have listed eight brands to give our audience an idea of what to expect. Each product category contains four items, with two items from each of the four featured brands. The Add to Cart and Purchase options are available for each product.
+
+On the Login page, we have chosen a dark gaming background to create a relatable atmosphere for gamers of all levels. We have included a simple login interface with fields for the user's email, password, a checkbox for accepting terms and conditions, and the Login button.
