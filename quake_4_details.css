@@ -1,0 +1,105 @@
+body {
+    background-color: rgb(68, 68, 68);
+}
+
+.quake-4-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.quake-4-intro {
+    background-color: rgb(22, 22, 22);
+    border: 1px solid white;
+    border-radius: 80px;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 90%;
+}
+
+.quake-4-container {
+    margin: 0.5rem;
+}
+
+.quake-4-main-img {
+    border-radius: 7px;
+    color: aliceblue;
+    padding: 0;
+    background-color: rgb(29, 29, 29);
+}
+
+.quake-4-name {
+    border-radius: 8px;
+    position: relative;
+    top: -4px;
+    padding: 0px;
+}
+
+.quake-4-title {
+    color: #ffffff;
+    padding: 20px;
+    font-size: 70px;
+    margin: 0;
+}
+
+.button-of-install {
+    background-color: rgb(61, 61, 61);
+    border: 1px solid rgb(68, 68, 68);
+    margin: 15px 40px 0px 40px;
+    padding: 60px;
+    border-radius: 80px;
+}
+
+.install {
+    height: 4.5rem;
+    width: 18.7rem;
+    border-radius: 26px;
+    background-color: rgb(182, 182, 182);
+    color: rgb(185, 185, 185);
+    margin-left: 20px; /* Adjust as needed */
+}
+
+.erolg {
+    border: 2px solid rgb(88, 88, 88);
+    padding: 1px;
+    margin: 6px;
+    box-sizing: border-box;
+    width: 803px;
+}
+
+.paragrparagraph-2, .quake-4-description, .paragraph-2, .quake-4-comments, .uvl {
+    color: white;
+}
+
+.quake-4-description {
+    font-size: 40px;
+}
+
+.quake-4-comments {
+    background-color: rgb(61, 61, 61);
+    font-size: 40px;
+    border: 1px solid rgb(68, 68, 68);
+    border-radius: 40px;
+}
+
+.uvl {
+    background-color: rgb(61, 61, 61);
+    border: 1px solid rgb(92, 92, 92);
+    margin: 5px 40px 0px 40px;
+    padding: 40px;
+    border-radius: 80px;
+}
+
+.txt {
+    height: 254px;
+    width: 1200px;
+    padding: 30px;
+}
+
+.buttondp {
+    height: 50px;
+    width: 100px;
+    border: 1px solid rgb(92, 92, 92);
+    border-radius: 12px;
+    background-color: rgb(182, 182, 182);
+}
