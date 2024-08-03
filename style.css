@@ -75,7 +75,7 @@ body{
 }
 
 .login-body{
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 /* Home #games-hero start */
