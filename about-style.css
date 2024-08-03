@@ -1,0 +1,28 @@
+#about-content div {
+    border: 1px solid white;
+    margin: 45px;
+    margin-top: 10vh;
+    border-radius: 5px;
+    padding: 45px;
+}
+
+.about-heading-1 h1, 
+.about-heading-2 h2, 
+.about-paragraph p, 
+.about-list-group ul li {
+    color: white;
+}
+
+.about-content li {
+    line-height: 75px;
+    border-bottom: 2px dotted #444;
+}
+
+.about-heading-1 h1, 
+.about-heading-2 h2 {
+    line-height: 50px;
+}
+
+.about-paragraph p {
+    padding: 20px;
+}
