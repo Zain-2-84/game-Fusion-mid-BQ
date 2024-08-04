@@ -67,7 +67,7 @@ body {
     width: 803px;
 }
 
-.paragrparagraph-2, .quake-4-description, .paragraph-2, .quake-4-comments, .uvl {
+.paragrparagraph-2, .quake-4-description, .paragraph-2, .quake-4-comments, .comment-form {
     color: white;
 }
 
@@ -82,12 +82,46 @@ body {
     border-radius: 40px;
 }
 
-.uvl {
+/* User form start */
+.comments {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.comment-form {
     background-color: rgb(61, 61, 61);
     border: 1px solid rgb(92, 92, 92);
     margin: 5px 40px 0px 40px;
     padding: 40px;
     border-radius: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.comment-form label {
+    margin-bottom: 5px;
+}
+
+.comment-form input[type="text"],
+.comment-form input[type="email"],
+.comment-form textarea {
+    width: 100%;
+    max-width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.comment-form textarea {
+    resize: vertical;
+    min-height: 100px;
+    max-height: 300px;
+}
+
+.button-container{
+    display: flex;
+    justify-content: flex-end;
 }
 
 .txt {
@@ -96,10 +130,12 @@ body {
     padding: 30px;
 }
 
-.buttondp {
+.submit-button {
+    padding: 10px 20px;
     height: 50px;
     width: 100px;
     border: 1px solid rgb(92, 92, 92);
     border-radius: 12px;
     background-color: rgb(182, 182, 182);
 }
+/* User form end */
